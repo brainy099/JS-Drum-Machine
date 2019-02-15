@@ -38,7 +38,7 @@ header {
   text-align: center;
   color: white;
   transition: all 0.1s ease;
-
+  cursor: pointer;
 }
 
 kbd {
@@ -57,4 +57,13 @@ kbd {
   transform: scale(1.1);
   border-color: #E91E63;
   box-shadow: 0 0 1rem #E91E63;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
