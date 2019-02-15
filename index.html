@@ -8,19 +8,19 @@
   <body>
     <header>JS DRUM KIT</header>
     <div class="keys">
-      <div data-key="65" class="key">
+      <div data-key="65" onclick="playSound2(65)" class="key">
         <kbd>A</kbd>
         <span class="sound">Kick</span>
       </div>
-      <div data-key="83" class="key">
+      <div data-key="83" onclick="playSound2(83)" class="key">
         <kbd>s</kbd>
         <span class="sound">Snare</span>
       </div>
-      <div data-key="68" class="key">
+      <div data-key="68" onclick="playSound2(68)" class="key">
         <kbd>D</kbd>
         <span class="sound">Tom</span>
       </div>
-      <div data-key="70" class="key">
+      <div data-key="70" onclick="playSound2(70)" class="key">
         <kbd>F</kbd>
         <span class="sound">hihat</span>
       </div>
@@ -29,7 +29,7 @@
     <audio data-key="65" src="src/kick.wav"></audio>
     <audio data-key="83" src="src/snare.wav"></audio>
     <audio data-key="68" src="src/tom.wav"></audio>
-    <audio data-key="70" src="src/hihat.wav"></audio>
+    <audio data-key="70"  src="src/hihat.wav"></audio>
 
     <script src="app.js"></script>
 
